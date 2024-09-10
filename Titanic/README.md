@@ -1,25 +1,28 @@
-Titanic Project
-This project uses machine learning and binary classification to find out the chances of someone's survival based on gender, age, and whether or not they were first or second class citizens on the Titanic.
+# Titanic - Machine Learning from Disaster
 
-Data
-The data for this project comes from the Kaggle Titanic dataset. The dataset contains information about 891 passengers who were on board the Titanic when it sank. The data includes information about passengers' names, ages, genders, cabins, and whether or not they survived.
+## This challenge is from kaggle at (https://www.kaggle.com/c/titanic)
 
-Tools
-The tools that were used for this project include:
 
-Python
-Jupyter Notebooks
-Pandas
-NumPy
-Matplotlib
-Scikit-Learn
-Findings
-The findings of this project show that factors such as gender, age, and cabin location were important determinants of survival. The project also shows that there were significant differences in survival rates between different social classes.
+The sinking of the Titanic is one of the most infamous shipwrecks in history.
 
-For example, Jack Dawson, a male passenger in third class, had a 12% chance of survival. Rose DeWitt Bukater, a female passenger in first class, had a 95% chance of survival. If the author of this project were on the ship, they would have had a 26% chance of survival.
+On April 15, 1912, during her maiden voyage, the widely considered “unsinkable” RMS Titanic sank after colliding with an iceberg. Unfortunately, there weren’t enough lifeboats for everyone onboard, resulting in the death of 1502 out of 2224 passengers and crew.
 
-Next Steps
-The next steps for this project include expanding the analysis to include more data and using machine learning to predict survival.
+While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others.
 
-Contact
-If you have any questions about this project, please contact me at domenick.dobbs@gmail.com.
+In this challenge, we ask you to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+
+## What Data Will I Use in This Competition?
+
+
+In this competition, you’ll gain access to two similar datasets that include passenger information like name, age, gender, socio-economic class, etc. One dataset is titled train.csv and the other is titled test.csv.
+
+Train.csv will contain the details of a subset of the passengers on board (891 to be exact) and importantly, will reveal whether they survived or not, also known as the “ground truth”.
+
+The test.csv dataset contains similar information but does not disclose the “ground truth” for each passenger. It’s your job to predict these outcomes.
+
+Using the patterns you find in the train.csv data, predict whether the other 418 passengers on board (found in test.csv) survived.
+
+
+## Changes from the norm
+
+I will be using this to consolidate the skills I am learning in data science. I will provide instructional reminders on key concepts. 
